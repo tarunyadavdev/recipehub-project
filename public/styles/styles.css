@@ -1,0 +1,113 @@
+.heading {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:#697565 ;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 400%;
+}
+
+.bodyClass {
+    background-color: #ECDFCC;
+}
+
+.recipeDetailsContainer{
+    margin: auto;
+    width: 75%;
+    height: 500px;
+    outline: solid 1px black;
+    background: #3C3D37;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.he3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.recipeTitleInput{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+input[type="text"]:focus, 
+.recipeTitleInput:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, .5);
+}
+
+.submitbutton {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submitbutton:hover {
+    background-color: #4cae4c;
+}
+
+.editDiv {
+    margin: auto;
+    width: 75%;
+    height: 500px;
+    outline: solid 1px black;
+    background: #3C3D37;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.editDiv p {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+
+.aboutContainer {
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.aboutContainer h1 {
+    color: #5cb85c; /* Change to a nice accent color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aboutContainer h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.aboutContainer p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
