@@ -68,6 +68,6 @@ app.post("/send-message", (req,res) => {
     res.redirect("/contact");
 });
 
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+app.listen(process.env.X_ZOHO_CATALYST_LISTEN_PORT||port,()=>{
+    console.log(`Server is running on port ${port}`);
 });
